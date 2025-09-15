@@ -10,13 +10,13 @@ html,
 .card {
     width: 30%;
     height: 500px;
-    background-color: blue;
+    background-color: white;
     margin: 20px auto;
 }
 
 .container {
     width: 90vw;
-    background-color: green;
+    background-color: beige;
     margin: 25px auto;
     display: flex;
     justify-content: space-between;
