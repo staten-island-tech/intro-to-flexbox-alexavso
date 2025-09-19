@@ -3,12 +3,33 @@ html,
 
 * {
     font: size 10px;
+    font-family: Inter;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 90vw;
+    background-color: rgb(247, 235, 241);
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+
 h1{
     text-align: center;
+    font-weight: 800;
+    margin: 20px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .card {
@@ -18,6 +39,7 @@ h1{
     border: 1px solid hsl(0, 0%, 50%);
     margin: 5px;
     padding: 5px;
+    border-radius: 20px;
 }
 
 .card .description {
@@ -49,15 +71,6 @@ h1{
 .button:hover {
     border: 1px solid hsl(0, 0%, 20%);
 
-}
-
-.container {
-    width: 90vw;
-    background-color: rgb(247, 235, 241);
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 800px) {
